@@ -1,0 +1,12 @@
+---
+- name: Setup Hostname
+  include_tasks: base_setup/setup_hostname.yml
+
+- name: Setup /etc/hosts
+  include_tasks: base_setup/setup_hosts_file.yml
+
+- name: Setup default settings
+  include_tasks: base_setup/setup_generate_defaults.yml
+
+- name: Setup Keyboard
+  include_tasks: base_setup/setup_keyboard.yml
