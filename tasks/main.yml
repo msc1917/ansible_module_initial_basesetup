@@ -6,7 +6,4 @@
   include_role: initial_hardware
 
 - name: Setup default Envriroment
-  include_role: initial_baseusers
-
-- name: Setup default Envriroment
   include_role: initial_network

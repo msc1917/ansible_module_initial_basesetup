@@ -1,0 +1,11 @@
+---
+dependencies:
+  - role: setenv_apt-proxy
+  - role: setenv_default-repositories
+  - role: setenv_default-software
+  - role: setenv_basesetup-defaults
+  - role: setenv_basesetup-hostname
+  - role: setenv_basesetup-keyboard
+  - role: setenv_basesetup-hostfile
+  - role: user_preinstall-user-cleanup
+  - role: user_admin-user
