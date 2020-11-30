@@ -1,9 +1,12 @@
 ---
-- name: Setup default Envriroment
-  include_role: initial_services
+- name: Setup default Services Envriroment
+  include_role: 
+    name: initial_services
 
-- name: Setup default Envriroment
-  include_role: initial_hardware
+- name: Setup default Hardware Envriroment
+  include_role: 
+    name: initial_hardware
 
-- name: Setup default Envriroment
-  include_role: initial_network
+- name: Setup default Network Envriroment
+  include_role: 
+    name: initial_network
