@@ -8,4 +8,3 @@ dependencies:
   - role: setenv_basesetup-keyboard
   - role: setenv_basesetup-hostfile
   - role: user_preinstall-user-cleanup
-  - role: user_admin-user
